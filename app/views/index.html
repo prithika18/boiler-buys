@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+</style>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A lightweight page with a small backend"
+    />
+
+    <title>Welcome to Boiler Buys, Shopping for Students!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Boiler Buys Homepage
+      </h1>
+    </header>
+
+    <main>
+      <button type="button" onclick="window.location.href='about.html'">About Us</button>   
+      <button
+        onclick="window.location.href = 'https://bb-final-reviews.glitch.me/'"
+      >
+        Review Website
+      </button>
+      <button onclick="myFunction()">Toggle Dark Mode</button>
+
+      <p class="bold">Welcome!</p>
+      <!--<a href = "sell.html"><p>Sellers Portal</p></a>-->
+      <!--<a href="https://rune-eggplant-gauge.glitch.me/" title="">Sellers Portal</a>-->
+      <button
+        onclick="window.location.href = 'https://boiler-seller-buyer.glitch.me/'"
+      >
+        Sell/Buy Portal
+      </button>
+      <button
+        onclick="window.location.href = 'https://boiler-product-rev.glitch.me/'"
+      >
+        Review Products
+      </button>
+      
+      </button>
+      <button
+        onclick="window.location.href = 'https://boiler-tutor-port.glitch.me/'"
+      >
+        Tutor Sign-Up
+      </button>
+      <p></p>
+
+      <button
+        onclick="window.location.href = 'https://boiler-room-portal.glitch.me/'"
+      >
+        Roommate Portal
+      </button>
+    
+      <button
+        onclick="window.location.href = 'https://bb-product-request.glitch.me/'"
+      >
+        Product Request
+      </button>
+
+
+
+      <script>
+        function myFunction() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+      </script>
+      <p>Enter a new user:</p>
+
+      <form>
+        <input
+          name="first"
+          type="text"
+          maxlength="100"
+          placeholder="First Name"
+        />
+        <input
+          name="last"
+          type="text"
+          maxlength="100"
+          placeholder="Last Name"
+        />
+        <input
+          name="eadd"
+          type="text"
+          maxlength="100"
+          placeholder="Email Address"
+        />
+        <button type="submit" id="submit-user">Add User</button>
+      </form>
+
+      <table style="width:50%">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Email</th>
+            <th>Joined</th>
+          </tr>
+        </thead>
+        <tbody id="user_table"></tbody>
+      </table>
+    </main>
+  </body>
+</html>

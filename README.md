@@ -13,8 +13,8 @@ Checkout the website here: https://boiler-buys-main.glitch.me
 * Adding Users Information to search for Roommates
 * Reviewing specific products and viewing all reviews
 * Reviewing the website and getting the average website rating
-* Can Toggle for Dark Mode
 
+* Can Toggle for Dark Mode
 
 **Database Schema**
 

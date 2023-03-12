@@ -15,6 +15,7 @@ Checkout the website here: https://boiler-buys-main.glitch.me
 * Reviewing the website and getting the average website rating
 * Can Toggle for Dark Mode
 
+
 **Database Schema**
 
 Key: table(PK, FK, attr_1, attr_2, ...)
